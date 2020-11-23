@@ -1,0 +1,265 @@
+/* Cuerpo */
+body{
+	width:1000px;
+	height:800px;
+	margin:0px auto;
+	background:#CFF;
+	border:solid 3px #999;
+	border-radius:20px;
+}
+/* Cabecera */
+header {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #19191B;
+}
+#logo {
+    float: left;
+    margin-right: 1%;
+}
+header h1 {
+    text-align: center;
+}
+/* Menú */
+.menu {
+    grid-column: span 12;
+	padding-bottom:5px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #19191B;
+}
+.menu ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 3px;
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+.menu li a {
+	font-family: 'Open Sans', sans-serif;
+	display: block;
+	padding: 0.5em;
+	color: red;
+	background-color: #E1DFDF;
+	text-decoration: none;
+	text-align: center;
+	white-space: nowrap;
+	text-transform: uppercase;
+}
+.menu li a:hover {
+	color: white;
+	background-color: #F73830;
+}
+
+
+
+/* Pié de página general a todas las páginas */
+body footer {
+	font-family: 'Open Sans', sans-serif;
+	color: #F0F0F0;
+	background-color: #9A240A;
+	padding: 0.3em;
+	font-size: calc(0.5em + 0.4vw);
+	margin-top: 600px;
+}
+
+
+
+
+/* Aside*/
+.cocinero{
+	border:3px solid #999999;
+	border-radius:10px;
+	box-shadow:#C60 3px 3px 3px;
+	resize:both;
+}
+
+/* Rotar el gif*/
+.cocinero:hover{
+	-moz-transform: rotate(5deg);
+	-webkit-transform: rotate(5deg);
+}
+	
+.redesSociales{
+	float:left;
+	padding:0 2px 0 2px;
+}
+#span2{
+	width:60px;
+	height:20px;
+	background:#6f9;
+	
+}
+
+#span2 a{
+	border: solid 1px #CC6633;
+	border-radius:10px;
+}
+
+.asideizq {
+	float: left;
+	height: 580px;
+	background-color:rgb(144, 227, 230);
+	width: 200px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #F00;
+	text-align: center;
+	margin-left: 10px;
+	position: static;
+	border:3px solid #999999;
+	border-radius:20px;
+	box-shadow:#999999 3px 3px 3px;
+	resize:both;
+}
+
+.asidecont{
+	font-size: 17px;
+	font-weight: normal;
+	font-style: normal;
+	font-family: Showcard Gothic;
+	color: #F00;
+	text-align: center;
+	font-family: Showcard Gothic;
+	padding-left: 3px;
+	padding-right: 4px;
+	padding-bottom:4px;
+	padding-top:4px;
+}
+.asidetexto{
+	background-color: #6f9;
+	font-size: 18px;
+	font-weight: bold;
+	color: #F00;
+	text-align: left;
+	text-shadow:#069 4px 4px 3px;
+	padding-left: 5px;
+	padding-right: 4px;
+	padding-bottom:4px;
+	padding-top:4px;
+}
+
+aside a:link {
+    color:#900;
+	font-size: 18px;
+	font-weight:bold;
+    text-decoration: underline;
+    background-color:#0CF;
+	text-align: right;
+	float: right;
+	padding-right: 5px;
+	text-decoration:none;
+}
+
+aside #ver{
+	color:#900;
+	margin-right:20px;
+	margin-top:50px;
+	
+}
+
+aside a:visited {
+    text-align: right;
+	float: right;
+	padding-right: 5px;
+}
+
+aside a:active {
+    color: #000000;
+    text-decoration: underline;
+	background-color: #000000;
+	text-align: right;
+	float: right;
+	padding-right: 5px;
+}
+
+aside a:hover {
+	font-size: 18px;
+    font-weight:bold;
+    color:#F60;
+    background-color:#9F6;
+	text-align: right;
+	float: right;
+	padding-right: 5px;
+}
+
+/* Área principal */
+body main {
+	background:url(../img/viajes.jpg);
+	background-repeat:repeat;
+}
+
+main{
+	margin-left:230px;
+	width:750px; 
+	height:580px; 
+	background-color: #6f9;
+	float: right;
+	position: absolute;
+	border:3px solid #999999;
+	border-radius:20px;
+	box-shadow:#999999 3px 3px 3px;
+	resize:both;
+}
+
+footer{
+	margin-top: 250px;
+}
+
+/* estilo de las Divisiones del área principal  */
+
+#fila0{
+	margin-left: 10px;
+	color: #ffffff;
+	font-family: Showcard Gothic;
+	font-weight: normal;
+
+}
+#fila2{
+	margin-left:240px; 
+}
+  
+h3 {
+	  color:#FFFFFF;
+}
+
+.celda {
+	background-color:#0CF;
+	width: 220px;
+	height:180px;
+	text-align:left;
+	position: absolute;
+	border:3px solid #999999;
+	border-radius:50%;
+	box-shadow:#999999 5px 5px 5px;
+	resize:none;
+}
+#fila1columna1{
+	margin-left:20px;
+	margin-top:10px;
+}
+#fila1columna2{
+	margin-left:260px;
+	margin-top: 10px;
+}
+#fila1columna3{
+	margin-left:500px;
+	margin-top:10px;
+}
+#fila2columna1{
+	margin-left:20px;
+	margin-top:210px;
+}
+#fila2columna2{
+	margin-left:260px;
+	margin-top:210px;
+}
+#fila2columna3{
+	margin-left:500px;
+	margin-top:210px;
+}
+	
+
+
+
